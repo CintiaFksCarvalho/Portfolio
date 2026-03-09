@@ -1,6 +1,7 @@
 # Exercícios de Bases de Dados
 
-Atividades práticas do curso Técnico de Informática – Sistemas. Foco em SQL: criação de tabelas, INSERT, SELECT, GROUP BY, JOIN, UPDATE.
+Atividades práticas do curso Técnico de Informática – Sistemas. 
+Foco em SQL: criação de tabelas, INSERT, SELECT, GROUP BY, JOIN, UPDATE.
 
 ## Projetos
 
