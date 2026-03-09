@@ -2,7 +2,7 @@
 
 **Exercício Gestor de Vetores Dinâmico**
 
-**[Ver código completo](./gestor-vetores-dinamico.c)**
+**[Ver código completo](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Programa%C3%A7%C3%A3o_C/Gestor%20de%20Vetores%20Din%C3%A2mico.c)**
 
 ## O que foi pedido
 Criar um programa interativo para gerir um **vetor dinâmico de números reais (float)** com as seguintes funcionalidades:
@@ -27,7 +27,7 @@ Criar um programa interativo para gerir um **vetor dinâmico de números reais (
 
 **Exercício Jogo de Adivinhação Customizável**
 
-**[Ver código completo](./jogo-adivinhacao-customizavel.c)**
+**[Ver código completo](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Programa%C3%A7%C3%A3o_C/Jogo%20de%20Adivinha%C3%A7%C3%A3o%20Customiz%C3%A1vel.c)**
 
 ## O que foi pedido
 Criar um **jogo de adivinhação interativo** com menu principal e configurações personalizáveis:
