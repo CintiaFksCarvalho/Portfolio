@@ -1,10 +1,10 @@
 # Portfólio – Cíntia Carvalho
 
 Técnico de Informática – Sistemas (IEFP) · Covilhã <br>
-Interesse em suporte/helpdesk.
+Interesse em suporte/helpdesk.<br>
+### Aqui estão alguns exercícios realizados durante o curso ###
 
 ## 1. Bases de Dados
-Aqui estão alguns exercícios realizados durante o curso:
 - Criação de tabelas com chaves primárias e estrangeiras.
 - Consultas simples com `SELECT`, `INSERT`, `UPDATE` e `DELETE`.
 - Exercícios de normalização básica.
