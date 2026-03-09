@@ -1,6 +1,6 @@
 # Portfólio – Cíntia Carvalho
 
-Técnico de Informática – Sistemas (IEFP) · Covilhã 
+Técnico de Informática – Sistemas (IEFP) · Covilhã <br>
 Interesse em suporte/helpdesk.
 
 ## 1. Bases de Dados
