@@ -1,7 +1,6 @@
 # Diagramas UML – Análise de Sistemas
 
-**UFCD 0781 – Análise de Sistemas de Informação**  
-**Formador:** André Campos  
+**Análise de Sistemas de Informação**   
 Exercícios práticos de modelação UML.
 
 ## Atividades
