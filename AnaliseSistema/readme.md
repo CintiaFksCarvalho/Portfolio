@@ -17,19 +17,19 @@ Exercícios práticos de modelação UML.
 **O que foi feito:** Diagramas de classes para 6 cenários:  
 - Carros, Concursos, Biblioteca (publicações, autores, requisições), Alunos (herança: Licenciatura/Diurno/Noturno/Mestrado), Agenda (Pessoa/Organização/Empregado), Encomendas.  
 **Conceitos:** Classes, atributos, relacionamentos (1:1, 1:N, N:N), herança, multiplicidades, agregação.  
-👉 [Ver diagramas]([./Atividade-2-Diagrama-de-classes.pdf](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%202%20-%20Diagrama%20de%20classes.pdf))
+👉 [Ver diagramas](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%202%20-%20Diagrama%20de%20classes.pdf)
 
 ### 3. **Atividade 3 - Diagramas de atividades.pdf**  
 **O que foi feito:** 3 diagramas de atividades:  
 - Marcação de reunião (decisões: local empresa/cliente, problema identificado?).  
 - Processo completo de análise de requisitos (subgrafos: Cliente, Direção, Analista; loops de aprovação).  
 **Conceitos:** Nós iniciais/finais, atividades, decisões (diamantes), fluxos paralelos, subgrafos.  
-👉 [Ver diagramas]([./Atividade-3-Diagramas-de-atividades.pdf](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%203%20-%20Diagramas%20de%20atividades.pdf))
+👉 [Ver diagramas](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%203%20-%20Diagramas%20de%20atividades.pdf)
 
 ### 4. **Atividade 4 - Diagramas de sequência.pdf**  
 **O que foi feito:** 2 diagramas de sequência UML (interações entre objetos ao longo do tempo).  
 **Conceitos:** Atores/objetos, mensagens síncronas/assíncronas, ativações, retornos.  
-👉 [Ver diagramas]([./Atividade-4-Diagramas-de-sequencia.pdf](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%204%20-%20Diagramas%20de%20sequ%C3%AAncia.pdf))
+👉 [Ver diagramas](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%204%20-%20Diagramas%20de%20sequ%C3%AAncia.pdf)
 
 ---
 
