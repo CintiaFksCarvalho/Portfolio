@@ -11,7 +11,7 @@ Exercícios práticos de modelação UML.
 - Máquina de bebidas (Petsi & Cola-Cola): atores Cliente, Representante, Gestor Comercial. Casos: Comprar produto (generalização lata/copo), Repor stocks, Extrair receitas. Relações: include, extend.  
 - Livraria Virtual: atores Cibernauta, Cliente, Departamentos. Casos: Registar-se, Consultar livros, Efetuar encomenda, Gestão stocks, etc.  
 **Conceitos:** Atores, casos de uso, generalização, include/extend.  
-👉 [Ver diagrama](./Atividade-1-Diagrama-de-caso-de-uso.pdf)
+👉 [Ver diagrama](./Portfolio/AnaliseSistema/Atividade 1-Diagrama-de-caso-de-uso.pdf)
 
 ### 2. **Atividade 2 - Diagrama de classes.pdf**  
 **O que foi feito:** Diagramas de classes para 6 cenários:  
