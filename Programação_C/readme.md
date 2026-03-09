@@ -26,6 +26,8 @@ Criar um programa interativo para gerir um **vetor dinâmico de números reais (
 
 
 
+
+
 <h2>Exercício Jogo de Adivinhação Customizável<h2/>
 
 **<h3>[Ver código completo](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Programa%C3%A7%C3%A3o_C/Jogo%20de%20Adivinha%C3%A7%C3%A3o%20Customiz%C3%A1vel.c)</h3>**
