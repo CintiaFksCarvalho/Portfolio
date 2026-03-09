@@ -4,41 +4,27 @@ Atividades práticas do curso Técnico de Informática – Sistemas. Foco em SQL
 
 ## Projetos
 
-### 1. **atividade-empresa.sql**  
-**O que foi feito:** Criação da base de dados `EMPRESA` com tabela `EMPREGADO` (campos: EMPNUM, NOME, FUNCAO, CHEFE, DATA_ADM, SALARIO, COMISSAO, DEPNUM). Inserção de 19 registos de funcionários.  
-**Conceitos:** CREATE TABLE, PRIMARY KEY, INSERT múltiplo.  
-👉 [Ver código](./atividade-empresa.sql)
+### 1. **Atividade_empresa_empregado_insert.SQL**  
+**O que foi feito:** Criação da base `EMPRESA` e tabela `EMPREGADO`. Inserção de 19 registos de funcionários (admins, vendedores, chefes, presidente).  
+**Conceitos:** CREATE DATABASE/TABLE, PRIMARY KEY, INSERT múltiplo com NULL.  
+👉 [Ver código](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/BancoDados/Atividade_empresa_empregado_insert.SQL)
 
-### 2. **atividade-4-empresa-empregado.sql**  
-**O que foi feito:** Consultas agregadas na tabela EMPREGADO: médias de salário, mínimos por função, contagens por departamento, GROUP BY, HAVING, filtros com WHERE.  
-**Conceitos:** AVG, MIN, COUNT, GROUP BY, HAVING.  
-👉 [Ver código](./atividade-4-empresa-empregado.sql)
+### 2. **Atividade_empresa_empregado_update.SQL**  
+**O que foi feito:** Consultas SELECT básicas e intermediárias: listagens, DISTINCT, ORDER BY, filtros com LIKE/BETWEEN/IN, salário mensal (ROUND).  
+**Conceitos:** SELECT com ORDER BY, DISTINCT, WHERE complexo, funções matemáticas (ROUND).  
+👉 [Ver código](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/BancoDados/Atividade_empresa_empregado_update.SQL)
 
-### 3. **EMPRESA-EMPREGADO-UPDATE.SQL**  
-**O que foi feito:** Consultas básicas: listagens com ORDER BY, filtros WHERE, BETWEEN, IN, LIKE para funções/salários.  
-**Conceitos:** SELECT básico, DISTINCT, ORDER BY, LIKE, BETWEEN, IN.  
-👉 [Ver código](./EMPRESA-EMPREGADO-UPDATE.SQL)
+### 3. **Atividade_empregado_update.sql**  
+**O que foi feito:** Consultas agregadas avançadas na tabela EMPREGADO: médias salariais por função/departamento, mínimos, contagens, GROUP BY múltiplo, HAVING, filtros.  
+**Conceitos:** AVG/MIN/MAX/COUNT, GROUP BY com múltiplas colunas, HAVING COUNT > N.  
+👉 [Ver código](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/BancoDados/Atividade_empregado_update.sql)
 
-### 4. **EMPRESA-ATUALIZACOES.SQL**  
-**O que foi feito:** Atualizações condicionais na tabela EMPREGADO: UPDATE com SET, WHERE complexo (filtro por função, comissão, nome, etc.).  
-**Conceitos:** UPDATE, LIKE, IS NULL.  
-👉 [Ver código](./EMPRESA-ATUALIZACOES.SQL)
+### 4. **Atividade_empresa_update.SQL**  
+**O que foi feito:** Atualizações múltiplas na tabela EMPREGADO: UPDATE condicional por função, comissão, nome, departamento.  
+**Conceitos:** UPDATE com SET múltiplo, WHERE com LIKE, IS NULL, comparações.  
+👉 [Ver código](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/BancoDados/Atividade_empresa_update.SQL)
 
-### 5. **atividade-5-ex1-JUNCAO.SQL**  
-**O que foi feito:** Base `atividade5ex1` com tabelas Localidade, Cliente, Telefone. Inserções e consultas com JOIN implícito para contagens e filtros.  
-**Conceitos:** FOREIGN KEY, JOIN implícito (WHERE), COUNT com múltiplas tabelas.  
-👉 [Ver código](./Atividade_5_ex1-JUNCAO.SQL)
-
-### 6. **atividade-5-ex2.sql** e **atividade-5-ex2-1.sql**  
-**O que foi feito:** Base `atividade5ex2` com tabelas Cliente, Produto, Fatura, Linha_Fatura (chaves estrangeiras). Inserções e consultas complexas: total faturado, SUM com multiplicação, JOIN múltiplas tabelas.  
-**Conceitos:** FOREIGN KEY, JOIN múltiplo, SUM, GROUP BY, LIKE.  
-👉 [Completo](./Atividade_5_ex2.SQL) | [Dados base](./Atividade_5_ex2-1.SQL)
-
-### 7. **TRANSPORTADORA_AVIAO.SQL**  
-**O que foi feito:** Base `TRANSPORTADORA_AVIAO` com 7 tabelas (Aviao, Telemovel, Morada, Piloto, Voo, Voo_Piloto, Piloto_Telemovel). Estrutura relacional completa com AUTO_INCREMENT, UNIQUE, múltiplas FK e tabelas de junção.  
-**Conceitos:** Design de BD relacional, PRIMARY KEY, FOREIGN KEY, tabelas de ligação (many-to-many).  
-👉 [Ver código](./TRANSPORTADORA_AVIAO.SQL)
-
----
-
-**Competências demonstradas:** Modelagem de bases de dados, consultas agregadas (AVG, COUNT, SUM, MIN/MAX), JOINs, UPDATEs condicionais, criação de tabelas com relacionamentos.
+### 5. **Atividade_5_ex2_querys.SQL**  
+**O que foi feito:** Criação completa da base `atividade5ex2` (Cliente, Produto, Fatura, Linha_Fatura com FK). Inserção de dados de clientes, vinhos, faturas. **Query's de análise:** NIF cliente específico, produto mais caro (MAX), total faturado por cliente (SUM com JOIN 4 tabelas), unidades vendidas de produto específico, produtos vendidos numa data com cliente.  
+**Conceitos:** JOIN múltiplas tabelas (implícito), SUM(preço*quantidade), MAX, LIKE, filtros por data/nome.  
+👉 [Ver código](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/BancoDados/Atividade_5_ex2_querys.SQL)
