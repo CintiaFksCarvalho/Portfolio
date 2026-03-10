@@ -6,7 +6,7 @@ Exercícios práticos de modelação UML.
 ## Atividades
 
 ### 1. **Diagrama de caso de uso.pdf**  
-****Objetivo:** Identificar **requisitos funcionais** de sistemas reais.  
+**Objetivo:** Identificar **requisitos funcionais** de sistemas reais.  
 **Solicitado:** Modelar interações utilizador-sistema com atores e fluxos.  
 **Entregue:**  
 **Máquina de bebidas**: 5 casos (Comprar lata/copo, Repor stock, Extrair receitas)  
