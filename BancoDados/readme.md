@@ -1,6 +1,6 @@
 # Exercícios de Bases de Dados
 
-## Foco em SQL: criação de tabelas, INSERT, SELECT, GROUP BY, JOIN, UPDATE.
+### Criação de tabelas, INSERT, SELECT, GROUP BY, JOIN, UPDATE.
 
 ## Projetos
 
