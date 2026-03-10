@@ -12,7 +12,7 @@ Criar um programa interativo para gerir um **vetor dinâmico de números reais (
 - Alteração de valores específicos
 - Interface com menus
 
-## 🛠️ Conceitos utilizados
+## Conceitos utilizados
 
 | Conceito | Uso no programa |
 |----------|----------------|
@@ -40,7 +40,7 @@ Criar um **jogo de adivinhação interativo** com menu principal e configuraçõ
 - Ajuda/informações
 - Tratamento robusto de erros
 
-## 🛠️ Conceitos utilizados
+## Conceitos utilizados
 
 | Conceito | Uso no programa |
 |----------|----------------|
