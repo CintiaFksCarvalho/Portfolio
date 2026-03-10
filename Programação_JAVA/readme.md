@@ -1,6 +1,6 @@
 # Programação em JAVA
 
-## Cálculo de Média com Vetores
+## Cálculo de Média com Arrays
 
 **<h3>[Ver código completo](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Programa%C3%A7%C3%A3o_JAVA/C%C3%A1lculo%20m%C3%A9dia%20idade%20Arrays.java)</h3>**
 
