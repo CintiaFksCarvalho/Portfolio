@@ -6,27 +6,37 @@ Exercícios práticos de modelação UML.
 ## Atividades
 
 ### 1. **Atividade 1 - Diagrama de caso de uso.pdf**  
-**O que foi feito:** Diagramas de casos de uso para:  
-- Máquina de bebidas (Petsi & Cola-Cola): atores Cliente, Representante, Gestor Comercial. Casos: Comprar produto (generalização lata/copo), Repor stocks, Extrair receitas. Relações: include, extend.  
-- Livraria Virtual: atores Cibernauta, Cliente, Departamentos. Casos: Registar-se, Consultar livros, Efetuar encomenda, Gestão stocks, etc.  
-**Conceitos:** Atores, casos de uso, generalização, include/extend.  
+****Objetivo:** Identificar **requisitos funcionais** de sistemas reais.  
+**Solicitado:** Modelar interações utilizador-sistema com atores e fluxos.  
+**Entregue:**  
+- **Máquina de bebidas**: 5 casos (Comprar lata/copo, Repor stock, Extrair receitas)  
+- **Livraria Virtual**: 8 casos (Registo, Encomenda, Gestão stock)  
+**Conhecimentos:** Atores primários/secundários, `<<include>>/<<extend>>`, generalização.  
 **<h3>[Ver diagrama](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%201%20-%20Diagrama%20de%20caso%20de%20uso.pdf)</h3>**
 
 ### 2. **Atividade 2 - Diagrama de classes.pdf**  
-**O que foi feito:** Diagramas de classes para 6 cenários:  
-- Carros, Concursos, Biblioteca (publicações, autores, requisições), Alunos (herança: Licenciatura/Diurno/Noturno/Mestrado), Agenda (Pessoa/Organização/Empregado), Encomendas.  
-**Conceitos:** Classes, atributos, relacionamentos (1:1, 1:N, N:N), herança, multiplicidades, agregação.  
+**Objetivo:** **Modelar estrutura de dados/objetos** de sistemas complexos.  
+**Solicitado:** Criar classes com relacionamentos e herança.  
+**Entregue:** 6 sistemas modelados:  
+- Biblioteca (Publicação/Autor/Requisição)  
+- Alunos (herança Licenciatura/Diurno/Mestrado)  
+- Agenda/Empresa (Pessoa/Organização)  
+**Conhecimentos:** Multiplicidades (1:1, 1:N, N:N), agregação, composição, herança.   
 **<h3>[Ver diagramas](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%202%20-%20Diagrama%20de%20classes.pdf)</h3>**
 
 ### 3. **Atividade 3 - Diagramas de atividades.pdf**  
-**O que foi feito:** 3 diagramas de atividades:  
-- Marcação de reunião (decisões: local empresa/cliente, problema identificado?).  
-- Processo completo de análise de requisitos (subgrafos: Cliente, Direção, Analista; loops de aprovação).  
-**Conceitos:** Nós iniciais/finais, atividades, decisões (diamantes), fluxos paralelos, subgrafos.  
+**Objetivo:** **Mapear fluxos de processos** com decisões e loops.  
+**Solicitado:** Representar workflows empresariais.  
+**Entregue:**  
+- Marcação de reuniões (decisões locais + ações condicionais)  
+- **Análise completa de requisitos** (Cliente → Direção → Analista)  
+**Conhecimentos:** Decisão (losango), fluxos paralelos, swimlanes/subgrafos.  
 **<h3>[Ver diagramas](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%203%20-%20Diagramas%20de%20atividades.pdf)<h3>**
 
 ### 4. **Atividade 4 - Diagramas de sequência.pdf**  
-**O que foi feito:** 2 diagramas de sequência UML (interações entre objetos ao longo do tempo).  
-**Conceitos:** Atores/objetos, mensagens síncronas/assíncronas, ativações, retornos.  
+**Objetivo:** **Modelar interações dinâmicas** entre objetos ao longo do tempo.  
+**Solicitado:** Mostrar mensagens entre componentes.  
+**Entregue:** 2 fluxos completos com ativações e retornos.  
+**Conhecimentos:** Lifelines, mensagens sync/async, `alt/opt` fragments.
 **<h3>[Ver diagramas](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/AnaliseSistema/Atividade%204%20-%20Diagramas%20de%20sequ%C3%AAncia.pdf)</h3>**
 
