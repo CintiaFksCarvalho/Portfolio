@@ -1,9 +1,6 @@
 # Diagramas UML – Análise de Sistemas
-
-**Análise de Sistemas de Informação**   
-Exercícios práticos de modelação UML.
-
-## Atividades
+ 
+**Exercícios de modelação UML.**
 
 ### 1. **Diagrama de caso de uso.pdf**  
 **Objetivo:** Identificar **requisitos funcionais** de sistemas reais.  
