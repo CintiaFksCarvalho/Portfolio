@@ -9,14 +9,14 @@ Interesse em suporte/helpdesk.<br>
 - Consultas simples com `SELECT`, `INSERT`, `UPDATE` e `DELETE`.
 - Exercícios de normalização básica.
 
-👉 Pasta com ficheiros SQL e explicações: `BD/`
+Pasta com ficheiros SQL e explicações: `https://github.com/CintiaFksCarvalho/Portfolio/tree/main/BancoDados`
 
 ## 2. Programação em C/C++
 - Exercícios de estruturas condicionais e ciclos.
 - Manipulação de arrays e funções.
-- Pequenos programas de treino de lógica (ex.: cálculo de média, gestão simples de contactos).
+- Pequenos programas de treino de lógica.
 
-👉 Pasta: `C_Cpp/`
+Pasta: `[Programação](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C)`
 
 ## 3. Programação em Java
 - Programas de consola para praticar classes, métodos e entrada de dados.
