@@ -1,6 +1,6 @@
 # Portfólio Técnico – Cíntia Carvalho
 
-### Técnica de Informática – Sistemas (IEFP) · Foco em Suporte/Helpdesk  
+## Técnica de Informática – Sistemas (IEFP) · Foco em Suporte/Helpdesk  
 Este repositório reúne as atividades realizadas durante o curso: análise de sistemas, bases de dados, hardware, programação e redes.<br>
 Labs a ser desenvolvido do curso de aperfeiçoamento Troubleshooting Helpdesk, IT Support - Udemy 
 ---
