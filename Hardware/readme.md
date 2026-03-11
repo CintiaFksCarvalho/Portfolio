@@ -6,7 +6,7 @@
 3. **Montar** PC funcional do zero
 4. **Documentar** processo com fotos e especificações
 
-**<h3>[Relatório Técnico]()</h3>**
+**<h3>[Relatório Técnico](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Hardware/Desmontagem_Montagem_Identifica%C3%A7%C3%A3o.pdf)</h3>**
 
 ## **Aplicação em Helpdesk**
 - Substituição RAM/SSD em campo
