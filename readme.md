@@ -2,10 +2,10 @@
 
 Técnica de Informática – Sistemas (IEFP) · Foco em Suporte/Helpdesk  
 Este repositório reúne as atividades realizadas durante o curso: análise de sistemas, bases de dados, hardware, programação e redes.
-
+Labs a ser desenvolvido do curso de aperfeiçoamento Troubleshooting Helpdesk, IT Support - Udemy 
 ---
 
-## O que pode encontrar aqui
+## O que vai encontrar aqui
 
 - **Diagramas UML – Análise de Sistemas**  
   Modelação de requisitos, fluxos e interações de sistemas reais usando casos de uso, classes, atividades e sequência.  
