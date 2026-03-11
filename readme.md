@@ -1,36 +1,40 @@
-# Portfólio – Cíntia Carvalho
+# Portfólio Técnico – Cíntia Carvalho
 
-Técnico de Informática – Sistemas (IEFP) · Covilhã <br>
-Interesse em suporte/helpdesk.<br>
-### Aqui estão alguns exercícios realizados durante o curso ###
+Técnica de Informática – Sistemas (IEFP) · Foco em Suporte/Helpdesk  
+Este repositório reúne as atividades realizadas durante o curso: análise de sistemas, bases de dados, hardware, programação e redes.
 
-## 1. Bases de Dados
-- Criação de tabelas com chaves primárias e estrangeiras.
-- Consultas simples com `SELECT`, `INSERT`, `UPDATE` e `DELETE`.
-- Exercícios de normalização básica.
+---
 
-Pasta com ficheiros SQL e explicações: `https://github.com/CintiaFksCarvalho/Portfolio/tree/main/BancoDados`
+## O que pode encontrar aqui
 
-## 2. Programação em C/C++
-- Exercícios de estruturas condicionais e ciclos.
-- Manipulação de arrays e funções.
-- Pequenos programas de treino de lógica.
+- **Diagramas UML – Análise de Sistemas**  
+  Modelação de requisitos, fluxos e interações de sistemas reais usando casos de uso, classes, atividades e sequência.  
+  **<h3>[Ver exercícios de Análise de Sistemas](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/AnaliseSistema)</h3>**
 
-Pasta: `[Programação](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C)`
+- **Bases de Dados (SQL)**  
+  Criação de bases de dados completas, consultas com JOIN, GROUP BY, HAVING e cenários de faturação (clientes, produtos, faturas).  
+  **<h3>[Ver exercícios de Bases de Dados](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/BancoDados)</h3>**
 
-## 3. Programação em Java
-- Programas de consola para praticar classes, métodos e entrada de dados.
-- Exercícios de estruturas de decisão e repetição.
+- **Hardware – Desmontagem e Montagem**  
+  Relatório com desmontagem completa de PC, identificação de componentes e montagem funcional, com foco em aplicação prática em helpdesk.  
+  **<h3>[Ver atividade de Hardware](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Hardware)</h3>**
 
-👉 Pasta: `Java/`
+- **Programação em C**  
+  Programas de treino de lógica, gestão de vetores dinâmicos, jogos interativos e uso de funções/modularização.  
+  **<h3>[Ver exercícios em C](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C)</h3>**
 
-## 4. Redes
-- Configuração de IP estático e DNS em máquinas de teste.
-- Utilização de comandos como `ipconfig`, `ping` e `tracert`.
-- Pequenos labs de diagnóstico de conectividade.
+- **Programação em Java**  
+  Exercícios com arrays, jogos (Jogo do Galo), manipulação de dados e estruturas de decisão/repetição.  
+  **<h3>[Ver exercícios em Java](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C)</h3>**
 
-👉 Pasta: `Redes/`
+- **Redes e Sistemas Operativos**  
+  Crimpagem de cabos, comandos cmd para diagnóstico com `ipconfig`, `ping`, `tracert` e metodologia de troubleshooting.  
+  **<h3>[Ver labs de Redes e Sistemas](https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Redes_Sistemas)</h3>**
+---
 
-## Contactos
-- Email: teuemail@exemplo.pt  
-- LinkedIn: [coloca aqui o link quando tiveres]  
+## Labs em desenvolvimento do curso de aperfeiçoamento Troubleshooting Helpdesk, IT Support - Udemy
+
+### Este portfólio está em crescimento 
+Novas atividades de redes e cenários de helpdesk serão adicionados. 
+
+
