@@ -1,18 +1,38 @@
-# **Redes e Sistemas Operativos**
+# Redes e Sistemas Operativos
 
-### Instalação de Cabo UTP
-**Objetivo:** Crimpagem de cabo de rede Cat 6 com fichas RJ-45 (padrão T568B).<br>
-**Competências:** Manuseamento de ferramentas (alicate, descarnador), teste de continuidade com cable tester.
+Atividades práticas realizadas durante a formação de Técnico de Informática – Sistemas, Nível 4, envolvendo instalação física de redes, configuração de equipamentos, implementação de redes locais e diagnóstico de conectividade.
 
-**<h3>[Relatório da atividade prática](https://docs.google.com/document/d/1f2XU383vermcpTZi5VC7PiytjGqBml0_/edit?usp=sharing&ouid=103031908511667729544&rtpof=true&sd=true)</h3>**
+---
 
-### **Ligações da Rede Local (Cisco Packet Tracer)**
+### 01. Instalação de Cabo UTP
 
-**Objetivo:** Implementar infraestrutura completa ISP + 2 empresas (A/B), incluindo **ligação de cabos**, **configuração IP/DHCP** e **conectividade** (HUBs → Switches → Routers + NAT + DNS + WiFi).<br>
-**Competências:**  
-- Ligação cabos UTP (direto/cruzado) + topologia estrela
-- Configuração IP estático/DHCP em PCs/routers/impressoras  
-- Troubleshooting conectividade (ping/nslookup/tracert)  
-- NAT público/privado + servidor HTTP acessível via Internet  
+**Objetivo:** Realizar a crimpagem de um cabo de rede Cat 6 com fichas RJ-45, seguindo o padrão de ligação T568B.
 
-**[Relatório da atividade](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Redes_Sistemas/Liga%C3%A7%C3%B5es%20da%20Rede%20Local.pdf)**
+**Atividades realizadas:**
+- Preparação e organização dos condutores.
+- Crimpagem do cabo com alicate apropriado.
+- Utilização de descarnador e ferramentas de instalação.
+- Teste de continuidade com cable tester para verificar a ligação.
+
+**Competências:** Cablagem Estruturada | Cabos UTP | Conectores RJ-45 | Padrão T568B | Testes de Continuidade.
+
+[Consultar relatório da atividade prática](https://docs.google.com/document/d/1f2XU383vermcpTZi5VC7PiytjGqBml0_/edit?usp=sharing)
+
+---
+
+### 02. Ligações da Rede Local — Cisco Packet Tracer
+
+**Objetivo:** Implementar e configurar uma infraestrutura de rede simulada, composta por um ISP e duas empresas (A e B), garantindo a comunicação entre os dispositivos e o acesso aos serviços de rede.
+
+**Atividades realizadas:**
+- Montagem da topologia de rede com hubs, switches e routers.
+- Configuração de ligações de rede e topologia em estrela.
+- Configuração de endereçamento IP estático e DHCP.
+- Configuração de NAT para comunicação entre redes públicas e privadas.
+- Configuração de serviços DNS e HTTP.
+- Configuração de conectividade Wi-Fi.
+- Testes e diagnóstico de conectividade através de ping, nslookup e tracert.
+
+**Competências:** Cisco Packet Tracer | Redes Locais (LAN) | Endereçamento IP | DHCP | NAT | DNS | Wi-Fi | Troubleshooting | Diagnóstico de Redes.
+
+[Consultar relatório da atividade](https://github.com/CintiaFksCarvalho/Portfolio/blob/main/Redes_Sistemas/Liga%C3%A7%C3%B5es%20da%20Rede%20Local.pdf)

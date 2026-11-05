@@ -1,51 +1,59 @@
-# Programação em JAVA
+# Programação em Java
 
-## Cálculo de Média com Arrays
+Atividades práticas realizadas durante a formação de Técnico de Informática – Sistemas, Nível 4, com foco nos fundamentos da programação, estruturas de dados, lógica e resolução de problemas.
+As atividades foram realizadas em contexto de aprendizagem orientada pelo professor, através de explicações teóricas, demonstrações práticas e acompanhamento na resolução dos exercícios.
+---
 
-### [Ver código completo](CalculoMediaIdadeArrays.java)
+## 01. Cálculo de Média com Arrays
 
-## O que foi pedido
-Programa simples para treinar **arrays unidimensionais**:
-- Ler 3 idades do utilizador e guardar em `int[] idd = new int[3]`
-- Mostrar cada valor com posição "amigável" (1,2,3 ao invés de 0,1,2)
-- Calcular soma usando **acumulador**
-- Dividir pela quantidade de elementos (`.length`) para obter a média
+**Objetivo:** Desenvolver um programa para praticar a utilização de arrays unidimensionais, ciclos e operações matemáticas em Java.
 
-## Conceitos utilizados
+**Descrição:** O programa solicita três idades ao utilizador, armazena os valores num array, apresenta os dados e calcula a média através de um acumulador.
 
-| Conceito | Uso no programa |
-|----------|----------------|
-| **Arrays** | `int[] idd = new int[3]` - declaração e inicialização |
-| **Ciclo `for`** | 3 usos: entrada, saída e soma (mesma estrutura, propósitos diferentes) |
-| **`Scanner`** | `ler.nextInt()` para capturar dados do teclado |
-| **`.length`** | `idd.length` → 3 (quantidade de elementos) |
-| **Acumulador** | `soma = idd[i] + soma` - soma iterativa |
-| **Índices** | `(i + 1)` para exibição humana vs `i` para acesso real |
+**Conceitos aplicados:**
+
+| Conceito | Aplicação |
+|---|---|
+| Arrays unidimensionais | Armazenamento das três idades através de `int[]`. |
+| Ciclo `for` | Repetição das operações de leitura, apresentação e soma. |
+| Scanner | Leitura de dados introduzidos pelo utilizador. |
+| Propriedade `length` | Identificação da quantidade de elementos do array. |
+| Acumulador | Soma progressiva dos valores armazenados. |
+| Índices | Acesso aos elementos e apresentação das posições ao utilizador. |
+
+[Consultar código-fonte](./CalculoMediaIdadeArrays.java)
 
 ---
 
-## Jogo do Galo (Tic-Tac-Toe)
+## 02. Jogo do Galo (Tic-Tac-Toe)
 
-### [Ver código completo](JogoGaloArrays.java)
+**Objetivo:** Desenvolver um jogo interativo de três em linha (3x3), aplicando estruturas de dados, métodos e lógica de programação.
 
-## O que foi pedido
-Criar jogo completo do **Galo** (3x3) com:
-- Tabuleiro visual formatado com bordas (`| X | O | |`)
-- Turnos alternados (ímpar=X, par=O)
-- Validação de posições ocupadas
-- Detecção automática de **vencedor** (linhas/colunas/diagonais)
-- **Empate** quando tabuleiro cheio
-- Interface interativa (coordenadas 0-2)
+**Descrição:** O programa permite que dois jogadores alternem as suas jogadas num tabuleiro 3x3. Inclui validação das posições escolhidas, identificação automática de vitória e reconhecimento de empate.
 
-## Conceitos utilizados
+**Funcionalidades implementadas:**
+- Apresentação visual do tabuleiro.
+- Alternância de turnos entre os jogadores X e O.
+- Introdução de jogadas através de coordenadas.
+- Validação de posições ocupadas.
+- Deteção de vitória em linhas, colunas e diagonais.
+- Identificação de empate quando o tabuleiro fica preenchido.
 
-| Conceito | Uso no programa |
-|----------|----------------|
-| **Matriz 2D** | `char mat[][] = new char[3][3]` - tabuleiro 3x3 |
-| **Métodos** | 7 funções especializadas (verificaFim, mostramat, preenchemat, etc.) |
-| **Arrays multidim.** | `mat[i][j]` - acesso coordenadas linha/coluna |
-| **Lógica vitória** | 8 condições OR (3 linhas + 3 colunas + 2 diagonais) |
-| **Controlo fluxo** | `while(jogada <= 9)` + `if(termina == -1)` para vitória |
-| **Validação** | `verificaMat()` evita sobrescrita de posições ocupadas |
+**Conceitos aplicados:**
 
+| Conceito | Aplicação |
+|---|---|
+| Matrizes bidimensionais | Representação do tabuleiro através de uma matriz 3x3. |
+| Métodos | Separação das funcionalidades em métodos especializados. |
+| Arrays multidimensionais | Acesso às posições através de linha e coluna. |
+| Estruturas condicionais | Verificação das condições de vitória e empate. |
+| Ciclos e controlo de fluxo | Gestão da sequência de jogadas. |
+| Validação | Impedir a utilização de posições já ocupadas. |
 
+[Consultar código-fonte](./JogoGaloArrays.java)
+
+---
+
+## Competências técnicas
+
+Java | Lógica de Programação | Algoritmos | Arrays | Matrizes | Ciclos | Métodos | Estruturas Condicionais | Validação de Dados | Resolução de Problemas.

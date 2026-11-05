@@ -1,125 +1,283 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-PT">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <meta name="description" content="Portfólio de Cíntia F. Carvalho: projetos de análise funcional, otimização de processos, informática e sistemas.">
+    <title>Portfólio | Cíntia F. Carvalho</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header class="main-header">
-  <div class="header-content">
-    
-    <div class="header-info">
-      <h1>Cíntia F. Carvalho</h1>
-      <h2>Formação em Informática – Sistemas</h2>
-      <p>Aqui apresento alguns dos projetos desenvolvidos durante a minha formação técnica, colocando em prática conhecimentos de programação, desenvolvimento web e bases de dados.</p>
-    </div>
+        <nav class="top-nav">
+            <a href="#inicio" class="brand"><span>PORTFÓLIO PROFISSIONAL</span></a>
+            <div class="nav-links">
+                <a href="#projetos">Projetos</a>
+                <a href="#formacao">Formação técnica</a>
+                <a href="#contato">Contacto</a>
+            </div>
+        </nav>
 
-    <div class="contact-card">
-      <h3>Contato</h3>
-      <a href="mailto:cintiazas@gmail.com" class="contact-item"> E-mail</a>
-      <a href="https://www.linkedin.com/in/cintia-carvalho-bbb592170" target="_blank" class="contact-item">LinkedIn</a>
-    </div>
+        <div class="hero" id="inicio">
+            <div class="hero-content">
+                
+                <h1>Cíntia F. Carvalho</h1>
+                <h2>Informática – Sistemas | CRM e Salesforce | QA e Software Testing</h2>
 
-  </div>
-</header>
+                <p>
+                    Formação técnica em Informática – Sistemas, com experiência profissional nas áreas comercial e de atendimento ao cliente. Tenho interesse em tecnologia e experiência prática em projetos de análise de processos, levantamento de requisitos e organização de informação, procurando aproximar as necessidades do negócio das soluções tecnológicas.
+                </p>
 
-    <section id="projetos">
-        <section class="projetos-container">
-            <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Diagramas UML</h3>
-                    <span class="tag">Análise de Sistemas</span>
+                <div class="hero-tags">
+                    <span>Análise de Processos</span>
+                    <span>Requisitos Funcionais</span>
+                    <span>Gestão de Informação</span>
+                    <span>CRM e Salesforce</span>
                 </div>
-                <div class="card-body">
-                    <p>Modelação de requisitos, fluxos e interações de sistemas reais usando casos de uso, classes, atividades e sequência.</p>
+
+                <div class="hero-actions">
+                    <a href="#projetos" class="btn-primary">Explorar projetos</a>
+                    <a href="https://www.linkedin.com/in/cintia-carvalho-bbb592170"
+                       target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                        LinkedIn
+                    </a>
                 </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/AnaliseSistema" class="btn-projeto">Ver Detalhes</a>
             </div>
 
-            <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Bases de Dados</h3>
-                    <span class="tag">SQL</span>
+            <div class="hero-side">
+                <div class="profile-card">
+                    <span class="profile-icon">CC</span>
+                    <h3>Negócio + Tecnologia</h3>
+                    <p>
+                        Transformar necessidades do negócio em requisitos claros e soluções que contribuam para melhorar processos e organizar informação.
+                    </p>
+                    <div class="profile-line"></div>
+                    <span class="profile-caption">Técnica de Informática – Sistemas | Nível 4</span>
                 </div>
-                <div class="card-body">
-                    <p>Criação de bases de dados completas, consultas com JOIN, GROUP BY, HAVING e cenários de faturação (clientes, produtos, faturas).</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- PROJETOS EM CONTEXTO INDUSTRIAL -->
+        <section class="section projects-section" id="projetos">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">EXPERIÊNCIA PRÁTICA</span>
+                    <h2>Projetos de otimização de processos</h2>
+                    <p>
+                        Três soluções desenvolvidas a partir de necessidades identificadas
+                        em contexto industrial, com foco na organização de informação,
+                        análise de processos e otimização de atividades.
+                    </p>
                 </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/BancoDados" class="btn-projeto">Ver Detalhes</a>
+                <span class="section-number">01 — 03</span>
             </div>
 
-            <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Desmontagem e Montagem</h3>
-                    <span class="tag">Hardware</span>
-                </div>
-                <div class="card-body">
-                    <p>Relatório com desmontagem completa de PC, identificação de componentes e montagem funcional, com foco em aplicação prática em helpdesk. </p>
-                </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Hardware" class="btn-projeto">Ver Detalhes</a>
+            <div class="projects-grid">
+
+                <article class="project-card featured">
+                    <div class="project-top">
+                        <span class="project-icon">01</span>
+                        <span class="project-tag">Gestão de processos</span>
+                    </div>
+                    <h3>FlowRequest</h3>
+                    <p class="project-subtitle">Sistema de Gestão de Pedidos Internos</p>
+                    <p class="project-description">
+                        Aplicação para centralizar pedidos internos, organizar solicitações
+                        por setor, classificar prioridades e facilitar o acompanhamento
+                        entre as equipas e a logística.
+                    </p>
+                    <div class="skill-list">
+                        <span>Requisitos</span>
+                        <span>Regras de negócio</span>
+                        <span>JSON</span>
+                        <span>Validação funcional</span>
+                    </div>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Projetos"
+                       class="project-link" target="_blank" rel="noopener noreferrer">
+                        Ver projeto <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-icon">02</span>
+                        <span class="project-tag">Excel e operações</span>
+                    </div>
+                    <h3>Gestão e Planeamento Operacional</h3>
+                    <p class="project-description">
+                        Ferramenta integrada em Excel para acompanhar presenças,
+                        horas trabalhadas, ausências, movimentações entre unidades
+                        produtivas e planeamento semanal.
+                    </p>
+                    <div class="skill-list">
+                        <span>Microsoft Excel</span>
+                        <span>Dashboards</span>
+                        <span>Automatização</span>
+                        <span>Análise de dados</span>
+                    </div>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Projetos/Gestao-Operacional"
+                       class="project-link" target="_blank" rel="noopener noreferrer">
+                        Ver projeto <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-icon">03</span>
+                        <span class="project-tag">Dados e automação</span>
+                    </div>
+                    <h3>Gerador de Relatórios de Qualidade</h3>
+                    <p class="project-description">
+                        Aplicação para tratar dados exportados de um sistema de qualidade
+                        e gerar relatórios estruturados, indicadores e rankings de defeitos.
+                    </p>
+                    <div class="skill-list">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Excel</span>
+                        <span>Requisitos</span>
+                    </div>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Projetos/Gerador-Relatorio-Qualidade"
+                       class="project-link" target="_blank" rel="noopener noreferrer">
+                        Ver projeto <span>↗</span>
+                    </a>
+                </article>
+
             </div>
 
-            <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Programação em C</h3>
-                    <span class="tag">C</span>
-                </div>
-                <div class="card-body">
-                    <p>Programas de treino de lógica, gestão de vetores dinâmicos, jogos interativos e uso de funções/modularização. </p>
-                </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C" class="btn-projeto">Ver Detalhes</a>
+            <div class="ai-note">
+                <strong>Sobre o processo de desenvolvimento:</strong>
+                Gemini e Claude foram utilizados como ferramentas de aprendizagem
+                e apoio à implementação técnica, incluindo geração de código nos
+                projetos correspondentes. A análise das necessidades, o levantamento
+                de requisitos, a definição das regras de negócio e a validação das
+                soluções fizeram parte da minha participação.
             </div>
-
-            <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Programação em Java</h3>
-                    <span class="tag">JAVA</span>
-                </div>
-                <div class="card-body">
-                    <p>Exercícios com arrays, jogos (Jogo do Galo), manipulação de dados e estruturas de decisão/repetição.</p>
-                </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C" class="btn-projeto">Ver Detalhes</a>
-            </div>
-
-            <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Redes e Sistemas Operativos</h3>
-                    <span class="tag">Redes/Sistemas Operativos</span>
-                </div>
-                <div class="card-body">
-                    <p>Crimpagem de cabos, comandos cmd para diagnóstico com `ipconfig`, `ping`, `tracert` e metodologia de troubleshooting.</p>
-                </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Redes_Sistemas" class="btn-projeto">Ver Detalhes</a>
-            </div>
-             <div class="card-projeto">
-                <div class="card-header">
-                    <h3>Soluções Tecnológicas e Otimização de Processos</h3>
-                    <span class="tag">Projetos</span>
-                </div>
-                <div class="card-body">
-                    <p>Desenvolvimento de três projetos aplicados ao contexto industrial, com foco na otimização de processos internos, organização de informações e melhoria de atividades operacionais. Projetos que demonstram a aplicação de conhecimentos técnicos em sistemas informáticos, resolução de problemas e utilização de ferramentas de IA como apoio ao desenvolvimento de soluções.</p>
-                </div>
-                <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Redes_Sistemas" class="btn-projeto">Ver Detalhes</a>
-            </div>
-           
         </section>
 
+        <!-- FORMAÇÃO TÉCNICA -->
+        <section class="section training-section" id="formacao">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">FORMAÇÃO IEFP · NÍVEL 4</span>
+                    <h2>Atividades da formação técnica</h2>
+                    <p>
+                        Exercícios e trabalhos práticos realizados durante a formação
+                        de Técnico de Informática – Sistemas.
+                    </p>
+                </div>
+                <span class="section-number">FORMAÇÃO</span>
+            </div>
 
-        <footer class="main-footer">
-            <p>Portfólio Cíntia F. Carvalho | Técnica de Informática - Sistemas</p>
-        </footer>
+            <div class="training-grid">
+
+                <article class="training-card">
+                    <span class="training-category">ANÁLISE DE SISTEMAS</span>
+                    <h3>Diagramas UML</h3>
+                    <p>
+                        Modelação de requisitos, estruturas de sistemas, fluxos
+                        de atividades e interações através de diagramas UML.
+                    </p>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/AnaliseSistema"
+                       target="_blank" rel="noopener noreferrer">Consultar atividades ↗</a>
+                </article>
+
+                <article class="training-card">
+                    <span class="training-category">BASES DE DADOS</span>
+                    <h3>SQL</h3>
+                    <p>
+                        Criação de tabelas, inserção e atualização de registos,
+                        consultas, funções de agregação e relacionamentos entre tabelas.
+                    </p>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/BancoDados"
+                       target="_blank" rel="noopener noreferrer">Consultar atividades ↗</a>
+                </article>
+
+                <article class="training-card">
+                    <span class="training-category">HARDWARE</span>
+                    <h3>Desmontagem e Montagem</h3>
+                    <p>
+                        Identificação dos componentes de um computador,
+                        compreensão das suas funções e montagem de equipamento.
+                    </p>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Hardware"
+                       target="_blank" rel="noopener noreferrer">Consultar atividade ↗</a>
+                </article>
+
+                <article class="training-card">
+                    <span class="training-category">PROGRAMAÇÃO</span>
+                    <h3>Java</h3>
+                    <p>
+                        Exercícios com arrays, matrizes, métodos, ciclos,
+                        estruturas condicionais e lógica de programação.
+                    </p>
+                    <a href="https://github.com/CintiaFkscarvalho/Portfolio/tree/main/Programacao_Java"
+                       target="_blank" rel="noopener noreferrer">Consultar atividades ↗</a>
+                </article>
+
+                <article class="training-card">
+                    <span class="training-category">PROGRAMAÇÃO</span>
+                    <h3>Linguagem C</h3>
+                    <p>
+                        Exercícios de lógica, vetores, funções, ponteiros,
+                        menus interativos e validação de dados.
+                    </p>
+                    <a href="https://github.com/CintiaFkscarvalho/Portfolio/tree/main/Programa%C3%A7%C3%A3o_C"
+                       target="_blank" rel="noopener noreferrer">Consultar atividades ↗</a>
+                </article>
+
+                <article class="training-card">
+                    <span class="training-category">INFRAESTRUTURA</span>
+                    <h3>Redes e Sistemas Operativos</h3>
+                    <p>
+                        Cablagem UTP, configuração de redes locais,
+                        endereçamento IP e diagnóstico de conectividade.
+                    </p>
+                    <a href="https://github.com/CintiaFksCarvalho/Portfolio/tree/main/Redes_Sistemas"
+                       target="_blank" rel="noopener noreferrer">Consultar atividades ↗</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contact-section" id="contato">
+            <span class="eyebrow">NOVOS DESAFIOS, NOVAS OPORTUNIDADES</span>
+            <h2>VAMOS CONVERSAR?</h2>
+            <p>
+                Estou à procura de uma oportunidade de estágio ou posição júnior na área tecnológica, com interesse em CRM e Salesforce, Quality Assurance (QA), Testes de Software e Análise Funcional.
+
+Estou aberta a novos desafios, ferramentas e conhecimentos, com motivação para aprender, colaborar com equipas e contribuir para o desenvolvimento de soluções tecnológicas.
+            </p>
+            <div class="contact-actions">
+                <a href="mailto:cintiazas@gmail.com" class="btn-primary">Enviar e-mail</a>
+                <a href="https://www.linkedin.com/in/cintia-carvalho-bbb592170"
+                   target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                    LinkedIn
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+
+    <p>
+        © Cíntia F. Carvalho | Portfólio de Informática – Sistemas
+    </p>
+
+    <a href="#inicio" class="btn-back-top">
+        Voltar ao início
+    </a>
+
+</footer>
+
 </body>
-
-
 </html>
-
-
-
-
-
-
-
-
