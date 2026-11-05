@@ -1,0 +1,170 @@
+/* --- ESTILOS GERAIS --- */
+body {
+    font-family: Lucida Sans, sans-serif; /* Adicione sans-serif como fallback */
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Garante alinhamento à esquerda geral */
+    background-color: #F1F5F9; /* Fundo mais agradável (neutro frio) */
+    line-height: 1.6;
+    color: #1E293B; /* Texto padrão em cinza escuro */
+}
+
+/* --- HEADER PRINCIPAL --- */
+.main-header {
+    background-color: #1E3A8A; /* Novo Azul Ardósia */
+    color: white;
+    padding: 50px 20px;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha no topo para ficar mais clean */
+    gap: 40px;
+}
+
+.header-info {
+    flex: 2;
+    text-align: left;
+}
+
+.header-info h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.header-info h2 {
+    color: #E2E8F0; /* Toque Menta no cargo (novo destaque) */
+    font-size: 1.2rem;
+    margin: 8px 0;
+    opacity: 0.9;
+}
+
+.header-info p {
+    font-size: 0.95rem;
+    margin: 15px 0 0 0; /* Correção de alinhamento: 15px topo, 0 esquerda */
+    line-height: 1.7;
+    max-width: 600px; /* Linha mais curta para leitura agradável */
+    color: #E2E8F0; /* Texto mais suave sobre fundo escuro */
+}
+
+/* --- CARD DE CONTATO NO HEADER --- */
+.contact-card {
+    flex: 0.7;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08); /* Fundo mais sutil */
+    backdrop-filter: blur(12px);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-card h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.15rem;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+}
+
+.contact-item {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.contact-item:hover {
+    background-color: rgba(167, 243, 208, 0.1); /* Hover suave com a cor de destaque menta */
+    transform: translateX(3px); /* Pequeno efeito visual */
+}
+
+/* --- SEÇÃO DE PROJETOS --- */
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 20px; /* Respiro entre o header e os cards */
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.card-projeto {
+    background: #FFFFFF; /* Branco puro no card para contraste */
+    border-left: 6px solid #1E3A8A; /* Borda com o novo azul */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06); /* Sombra mais suave */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-projeto:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.card-header h3 {
+    color: #1E3A8A; /* Título do projeto com o novo azul */
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.tag {
+    background: #E2E8F0; /* Tag mais neutra */
+    color: #475569;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.card-body p {
+    color: #475569; /* Resumo do projeto em cinza grafite (agradável) */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    max-width: 90%; /* Evita linhas muito longas */
+}
+
+.btn-projeto {
+    text-decoration: none;
+    color: #1E3A8A; /* Link com a cor principal */
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-projeto:hover {
+    color: #1D4ED8; /* Azul mais brilhante ao passar o mouse */
+}
+
+/* --- FOOTER PRINCIPAL --- */
+.main-footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #1E3A8A; /* Novo Azul Ardósia */
+    color: #E2E8F0;
+    font-size: 0.85rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

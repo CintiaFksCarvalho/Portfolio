@@ -1,0 +1,32 @@
+name: Build EXE
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: Projetos/Gerador-Relatorio-Qualidade
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas openpyxl pyinstaller
+      - run: pyinstaller --onefile --windowed --name GeradorRelatorioQualidade gerador_bpc.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GeradorRelatorioQualidade
+          path: |
+            Projetos/Gerador-Relatorio-Qualidade/dist/GeradorRelatorioQualidade.exe
+            Projetos/Gerador-Relatorio-Qualidade/referencias.xlsx
+      - uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            Projetos/Gerador-Relatorio-Qualidade/dist/GeradorRelatorioQualidade.exe
+            Projetos/Gerador-Relatorio-Qualidade/referencias.xlsx
