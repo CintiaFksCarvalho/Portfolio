@@ -1,6 +1,6 @@
 # Programação em C
 
-Atividades práticas realizadas durante a formação de Técnico de Informática – Sistemas, Nível 4, com foco nos fundamentos da linguagem C, estruturas de dados, modularização e desenvolvimento de programas interativos.
+Atividades práticas realizadas durante a formação de Técnico de Informática – Sistemas, com foco nos fundamentos da linguagem C, estruturas de dados, modularização e desenvolvimento de programas interativos.
 As atividades foram realizadas em contexto de aprendizagem orientada pelo professor, através de explicações teóricas, demonstrações práticas e acompanhamento na resolução dos exercícios.
 
 ---

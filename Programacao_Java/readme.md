@@ -1,7 +1,8 @@
 # Programação em Java
 
-Atividades práticas realizadas durante a formação de Técnico de Informática – Sistemas, Nível 4, com foco nos fundamentos da programação, estruturas de dados, lógica e resolução de problemas.
+Atividades práticas realizadas durante a formação de Técnico de Informática – Sistemas, com foco nos fundamentos da programação, estruturas de dados, lógica e resolução de problemas.
 As atividades foram realizadas em contexto de aprendizagem orientada pelo professor, através de explicações teóricas, demonstrações práticas e acompanhamento na resolução dos exercícios.
+
 ---
 
 ## 01. Cálculo de Média com Arrays
